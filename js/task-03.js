@@ -28,7 +28,7 @@ function createImageMarkup (images) {
       width = 30%>
       </img>
     </li>`
-  })
+  }).join('')
 }
 itemsContainer.insertAdjacentHTML('beforeend', imagesMarkup)
 
