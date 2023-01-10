@@ -3,9 +3,6 @@
 const sizeEl = document.getElementById('font-size-control')
 const textEl = document.getElementById('text')
 
-console.log(sizeEl)
-console.log(textEl)
-
 sizeEl.oninput = function () {
     textEl.style.fontSize = sizeEl.value + 'px'
 }
